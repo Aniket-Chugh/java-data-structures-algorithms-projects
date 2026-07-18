@@ -7,13 +7,13 @@ A feature-rich command-line Todo List application built using **Core Java**, **O
 ### 📌 CRUD Operations
 - [X] View Tasks
 - [X] Add Task
-- [ ] Remove Task
-- [ ] Update Task
+- [X] Remove Task
+- [X] Update Task
 
 ### 🔍 Searching & Filtering
-- [ ] Search Task
-- [ ] View Completed Tasks
-- [ ] View Pending Tasks
+- [X] Search Task
+- [X] View Completed Tasks
+- [X] View Pending Tasks
 
 ### ✔️ Status Operations
 - [ ] Mark Task as Completed
@@ -38,11 +38,10 @@ A feature-rich command-line Todo List application built using **Core Java**, **O
 - [ ] Export Tasks
 
 ### ⭐ Advanced Features
-- [ ] Delete All Tasks
+- [X] Delete All Tasks
 - [ ] Clear Completed Tasks
 - [ ] Set Task Priority
-- [ ] Change Deadline
-- [ ] View Overdue Tasks
+
 
 ---
 

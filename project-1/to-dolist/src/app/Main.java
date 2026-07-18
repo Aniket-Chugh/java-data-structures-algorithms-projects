@@ -100,7 +100,9 @@ public class Main {
                             System.out.println("1. Remove all Tasks");
                             System.out.println("2. Remove tasks that name is");
                             System.out.println("3. Remove Task that is on this index");
+                            System.out.println("4. Exit from this menu");
                             int remChoice = sc.nextInt();
+                            sc.nextLine();
                             switch (remChoice) {
                                 case 1:
                                     Crud_task.removeAllTasks();
@@ -114,6 +116,9 @@ public class Main {
                                     Crud_task.removeByIndex();
                                     break;
 
+                                case 4:
+                                    break;
+
                                 default:
                                     System.out.println("enter a valid input to remove");
                                     break;
@@ -122,18 +127,22 @@ public class Main {
 
                         case 4:
                             System.out.println("Update Task");
+                            Crud_task.updateByIndex();
                             break;
 
                         case 5:
                             System.out.println("Search Task");
+                            Crud_task.searchTask();
                             break;
 
                         case 6:
                             System.out.println("View Completed Tasks");
+                            Crud_task.viewCompletedTask();
                             break;
 
                         case 7:
                             System.out.println("View Pending Tasks");
+                            Crud_task.viewPendingTask();
                             break;
 
                         case 8:

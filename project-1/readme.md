@@ -16,8 +16,8 @@ A feature-rich command-line Todo List application built using **Core Java**, **O
 - [X] View Pending Tasks
 
 ### ✔️ Status Operations
-- [ ] Mark Task as Completed
-- [ ] Mark Task as Pending
+- [X] Mark Task as Completed
+
 
 ### 📅 Sorting
 - [ ] Sort by Deadline

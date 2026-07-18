@@ -1,6 +1,7 @@
 package manager;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -154,5 +155,18 @@ public class TaskManager {
             System.out.println("No Pending tasks found.");
         }
     }
+
+    public void markTaskCompleted(int index) {
+        if (!isValidIndex(index)) {
+            return;
+        }
+
+        tasks.get(index).setCompleted(true);
+
+        System.out.println("your task is completed finally");
+
+    }
+
+    
 
 }

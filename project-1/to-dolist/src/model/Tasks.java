@@ -178,4 +178,13 @@ public class Tasks {
         tm.viewPendingTask();
     }
 
+    public void markTaskCompleted() {
+        System.out.println("which task you want to mark completed?");
+
+        int index = sc.nextInt() - 1;
+        sc.nextInt();
+
+        tm.markTaskCompleted(index);
+    }
+
 }

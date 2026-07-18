@@ -52,32 +52,19 @@ public class Main {
 
                     System.out.println("\n----- Status Operations -----");
                     System.out.println("8. Mark Task as Completed");
-                    System.out.println("9. Mark Task as Pending");
+                    System.out.println("9.Mark Task as Completed");
 
                     System.out.println("\n----- Sorting -----");
                     System.out.println("10. Sort by Deadline");
-                    System.out.println("12. Sort Alphabetically");
-
-                    System.out.println("\n----- Statistics -----");
-                    System.out.println("13. Show Total Tasks");
-                    System.out.println("14. Show Completed Count");
-                    System.out.println("15. Show Pending Count");
+                    System.out.println("11. Sort Alphabetically");
 
                     System.out.println("\n----- Undo / Redo -----");
-                    System.out.println("16. Undo Last Operation");
-                    System.out.println("17. Redo Last Operation");
-
-                    System.out.println("\n----- File Operations -----");
-                    System.out.println("18. Save Tasks");
-                    System.out.println("19. Load Tasks");
-                    System.out.println("20. Export Tasks");
+                    System.out.println("12. Undo Last Operation");
+                    System.out.println("13. Redo Last Operation");
 
                     System.out.println("\n----- Advanced -----");
-                    System.out.println("21. Delete All Tasks");
-                    System.out.println("22. Clear Completed Tasks");
-                    System.out.println("23. Set Priority");
-                    System.out.println("24. Change Deadline");
-                    System.out.println("25. View Overdue Tasks");
+                    System.out.println("14. Clear Completed Tasks");
+                    System.out.println("15. View Overdue Tasks");
 
                     System.out.print("\nEnter your choice from Menu: ");
 
@@ -147,10 +134,12 @@ public class Main {
 
                         case 8:
                             System.out.println("Mark Task Completed");
+                            Crud_task.markTaskCompleted();
                             break;
 
                         case 9:
-                            System.out.println("Mark Task Pending");
+                            System.out.println("Mark Task Completed");
+                            Crud_task.markTaskCompleted();
                             break;
 
                         case 10:
@@ -158,63 +147,27 @@ public class Main {
                             break;
 
                         case 11:
-                            System.out.println("Sort by Priority");
-                            break;
-
-                        case 12:
                             System.out.println("Sort Alphabetically");
                             break;
 
-                        case 13:
+                        case 12:
                             System.out.println("Show Total Tasks");
                             break;
 
-                        case 14:
+                        case 13:
                             System.out.println("Show Completed Count");
                             break;
 
-                        case 15:
+                        case 14:
                             System.out.println("Show Pending Count");
                             break;
 
-                        case 16:
+                        case 15:
                             System.out.println("Undo Last Operation");
                             break;
 
-                        case 17:
+                        case 16:
                             System.out.println("Redo Last Operation");
-                            break;
-
-                        case 18:
-                            System.out.println("Save Tasks");
-                            break;
-
-                        case 19:
-                            System.out.println("Load Tasks");
-                            break;
-
-                        case 20:
-                            System.out.println("Export Tasks");
-                            break;
-
-                        case 21:
-                            System.out.println("Delete All Tasks");
-                            break;
-
-                        case 22:
-                            System.out.println("Clear Completed Tasks");
-                            break;
-
-                        case 23:
-                            System.out.println("Set Priority");
-                            break;
-
-                        case 24:
-                            System.out.println("Change Deadline");
-                            break;
-
-                        case 25:
-                            System.out.println("View Overdue Tasks");
                             break;
 
                     }

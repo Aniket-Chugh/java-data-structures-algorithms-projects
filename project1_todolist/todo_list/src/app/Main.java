@@ -144,18 +144,20 @@ public class Main {
 
                         case 10:
                             System.out.println("Sort by Deadline");
+                            Crud_task.sortByDeadline();
                             break;
 
                         case 11:
                             System.out.println("Sort Alphabetically");
+                            Crud_task.sortByAlphabets();
                             break;
 
                         case 12:
-                            System.out.println("Show Total Tasks");
+                            System.out.println("Undo Last Operation");
                             break;
 
                         case 13:
-                            System.out.println("Show Completed Count");
+                            System.out.println("Redo Last Operation");
                             break;
 
                         case 14:
@@ -170,12 +172,20 @@ public class Main {
                             System.out.println("Redo Last Operation");
                             break;
 
+                        case 17:
+                            System.out.println("Clear all completed tasks");
+                            break;
+
+                        case 18:
+                            System.out.println("View Overdue Tasks");
+                            break;
+
                     }
 
                     break;
 
                 default:
-                    System.out.println("Invalid Choice.");
+                    System.out.println("Bro cant you see there are only 2 options , dumb ! Invalid Choice.");
 
             }
         }

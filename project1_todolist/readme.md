@@ -20,27 +20,15 @@ A feature-rich command-line Todo List application built using **Core Java**, **O
 
 
 ### 📅 Sorting
-- [ ] Sort by Deadline
-- [ ] Sort Alphabetically
-
-### 📊 Statistics
-- [ ] Show Total Tasks
-- [ ] Show Completed Count
-- [ ] Show Pending Count
+- [X] Sort by Deadline
+- [X] Sort Alphabetically
 
 ### ↩️ Undo / Redo
 - [ ] Undo Last Operation
-- [ ] Redo Last Operation
-
-### 💾 File Operations
-- [ ] Save Tasks
-- [ ] Load Tasks
-- [ ] Export Tasks
 
 ### ⭐ Advanced Features
 - [X] Delete All Tasks
 - [ ] Clear Completed Tasks
-- [ ] Set Task Priority
 
 
 ---

@@ -3,6 +3,7 @@ package manager;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 // following Separation of Concerns (SoC) , good in oop , thanks to me hehe
@@ -167,6 +168,14 @@ public class TaskManager {
 
     }
 
-    
+    public void sortByAlphabets() {
+        tasks.sort((task1, task2) -> task1.getTaskName().compareToIgnoreCase(task2.getTaskName()));
+    }
+
+    public void sortByDeadline() {
+
+        tasks.sort((task1, task2) -> task1.getDeadline().compareTo(task2.getDeadline()));
+
+    }
 
 }

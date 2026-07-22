@@ -187,4 +187,12 @@ public class Tasks {
         tm.markTaskCompleted(index);
     }
 
+    public void sortByAlphabets() {
+        tm.sortByAlphabets();
+    }
+
+    public void sortByDeadline() {
+        tm.sortByDeadline();
+    }
+
 }
